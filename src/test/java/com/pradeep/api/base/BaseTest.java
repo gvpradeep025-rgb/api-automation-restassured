@@ -32,7 +32,7 @@ public abstract class BaseTest {
                 .setConfig(config)
                 .setBaseUri(ConfigManager.get("baseUri"))
                 .setContentType(ContentType.JSON)
-                .setAccept(ContentType.JSON)
+                .setAccept("application/json")
                 .log(LogDetail.URI)
                 .build();
 
